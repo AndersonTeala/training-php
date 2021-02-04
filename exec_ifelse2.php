@@ -11,7 +11,7 @@
 			<?php
 						$name = Anderson;
 						$idade = 25;
-						$peso = 49;
+						$peso = 50;
 			?>
 
 			<h1>Informações sobre o doador</h1>
