@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styles.css">
 		<title>Anderson Teala</title>
 	</head>
 
@@ -11,7 +12,7 @@
 
 					$aluno = Anderson;
 					$comportamento = true;
-					$notas = 10;
+					$notas = 7;
 
 					$mensalidade = 500;
 					$recebeu_desconto = true;
@@ -26,17 +27,18 @@
 
 			?>
 
-			<h1>Informações sobre aluno</h1>
+			<h1>Informações sobre o aluno</h1>
 			<p>Aluno: <?= $aluno ?></p>
 			<p>Nota: <?= $notas ?></p>
 			<p>Mensalidade: <?= $mensalidade?></p>
-			<p>Recebeu desconto:
+			<!-- //operador ternário -->
+			<p>Recebeu desconto: <?= $recebeu_desconto ? 'SIM' : 'NÃO'; ?> 
 				<?php
-						if($recebeu_desconto == true) {
+						/* if($recebeu_desconto == true) {
 							echo 'SIM';
 						} else {
 							echo 'NÃO';
-						}
+						} */
 				?>
 			</p>
 
