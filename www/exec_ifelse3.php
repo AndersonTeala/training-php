@@ -11,9 +11,10 @@
         <?php
 
             $name = Anderson;
-            $idade = 25;
-            $peso = 73;
+            $idade = 30;
+            $peso = 70;
         ?>
+
         <div>
             <h1>Informacoes sobre o aluno</h1>
             <p>Aluno: <?= $name?> </p>
@@ -22,6 +23,7 @@
         </div>
 
         <p>Tipo de treinamento:
+
         <?php
             if($idade >=22 && $idade <= 50 && $peso >=70) {
               echo 'Treinamento Pesado';
@@ -36,6 +38,7 @@
             }
 
         ?>
+
         </p>
       
     </body>
