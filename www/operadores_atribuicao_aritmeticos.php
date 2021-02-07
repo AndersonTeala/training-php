@@ -8,14 +8,13 @@
 
 	<body style="font-size: 45px; padding: 42px; text-align: center;">
 		
-			<?php
+				<?php
 
-					$valor = 10.35;
-					$valor2 = (int) $valor;
+						$x = 20;
+						
+						$x += 20;
 
-					echo $valor. ' ' . gettype($valor);
-					echo '<br/>';
-					echo $valor2. ' ' . gettype($valor2);
+						echo $x;
 			?>
 
 	</body>

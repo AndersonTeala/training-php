@@ -12,7 +12,7 @@
 
     <?php
         $name = Anderson;
-        $idade_proibida = 16 ;
+        $idade_proibida = 45 ;
     ?>
 
   <h2>Informacoes sobre o aluno</h2>
