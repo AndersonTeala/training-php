@@ -10,7 +10,7 @@
           throw new Exception('O Arquivo deveria está aqui as x  hrs mais n está, vamos assim ok');
       }
 
-    } catch (Error $e) {
+    }catch (Error $e) {
       echo '<h3> *** catch error *** </h3>';
       echo '<p style="color: red">' . $e . '</p>';
 
