@@ -10,7 +10,7 @@
 
 			<?php
 
-					$aluno = Anderson;
+					$aluno = 'Anderson';
 					$comportamento = true;
 					$notas = 7;
 
